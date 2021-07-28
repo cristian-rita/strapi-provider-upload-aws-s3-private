@@ -23,7 +23,7 @@ See the [using a provider](https://strapi.io/documentation/developer-docs/latest
 module.exports = ({ env }) => ({
   // ...
   upload: {
-    provider: 'aws-s3',
+    provider: 'aws-s3-private',
     providerOptions: {
       accessKeyId: env('AWS_ACCESS_KEY_ID'),
       secretAccessKey: env('AWS_ACCESS_SECRET'),
@@ -45,7 +45,7 @@ This is also working with IAM roles. You just need to omit the accessKeyId and s
 module.exports = ({ env }) => ({
   // ...
   upload: {
-    provider: 'aws-s3',
+    provider: 'aws-s3-private',
     providerOptions: {
       region: env('AWS_REGION'),
       params: {
