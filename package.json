@@ -1,45 +1,45 @@
 {
-    "name": "strapi-provider-upload-aws-s3-private",
-    "version": "1.0.0",
-    "description": "AWS S3 provider for strapi upload",
-    "homepage": "https://strapi.io",
-    "keywords": [
-      "upload",
-      "aws",
-      "s3",
-      "strapi",
-      "no acl",
-      "private"
-    ],
-    "directories": {
-      "lib": "./lib"
-    },
-    "main": "./lib",
-    "dependencies": {
-      "aws-sdk": "2.892.0",
-      "lodash": "4.17.21"
-    },
-    "strapi": {
-      "isProvider": true
-    },
-    "author": {
-      "email": "rita.cristian@gmail.com",
-      "name": "Cristian Rita",
-      "url": "https://cristianrita.ro"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/cristian-rita/strapi-provider-upload-aws-s3-private"
-    },
-    "bugs": {
-      "url": "https://github.com/cristian-rita/strapi-provider-upload-aws-s3-private/issues"
-    },
-    "engines": {
-      "node": ">=10.16.0 <=14.x.x",
-      "npm": ">=6.0.0"
-    },
-    "license": "MIT",
-    "scripts": {
-      "test": "echo \"no tests yet\""
-    }
+  "name": "strapi-provider-upload-aws-s3-private",
+  "version": "1.0.1",
+  "description": "AWS S3 provider for strapi upload",
+  "homepage": "https://strapi.io",
+  "keywords": [
+    "upload",
+    "aws",
+    "s3",
+    "strapi",
+    "no acl",
+    "private"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "aws-sdk": "2.892.0",
+    "lodash": "4.17.21"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "rita.cristian@gmail.com",
+    "name": "Cristian Rita",
+    "url": "https://cristianrita.ro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cristian-rita/strapi-provider-upload-aws-s3-private"
+  },
+  "bugs": {
+    "url": "https://github.com/cristian-rita/strapi-provider-upload-aws-s3-private/issues"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"no tests yet\""
   }
+}
